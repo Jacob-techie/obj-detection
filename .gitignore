@@ -1,0 +1,16 @@
+# Ignore tf models dir
+models/*
+
+# Ignore tfr dataset (too large)
+workspace/training_demo/annotations/train.record
+workspace/training_demo/annotations/train.record
+
+# ignore the test and train  image packages (too large)
+workspace/training_demo/images/train/*
+workspace/training_demo/images/test/*
+
+# ignore models and checkpoints dir (too large)
+workspace/training_demo/models/my_ssd_resnet50_v1_fpn/*
+
+workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/checkpoint/*
+workspace/training_demo/pre-trained-models/ssd_resnet50_v1_fpn_640x640_coco17_tpu-8/saved_model/*
